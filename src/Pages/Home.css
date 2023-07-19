@@ -13,3 +13,30 @@
 .modal-body {
   color: #c0c0c0;
 }
+
+.btn.home {
+  margin-top: 13px;
+  background-color: #c895e0;
+  border-color: #c895e0;
+  font-weight: 600;
+  color: #292925;
+}
+
+.btn.home:hover {
+  background-color: #292925;
+  border-color: #30302d;
+  color: #c0c0c0;
+}
+
+.btn.home:active {
+  background-color: #c895e0;
+  border-color: #c895e0;
+  font-weight: 600;
+  color: #292925;
+}
+
+.btn.home:hover::after {
+  background-color: #292925;
+  border-color: #30302d;
+  color: #c0c0c0;
+}

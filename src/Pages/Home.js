@@ -31,10 +31,23 @@ const Home = () => {
               </span>{" "}
               <span style={{ color: "#c895e0" }}>Port</span>(folio)!
             </h1>
+            <span
+              type="button"
+              className="btn home"
+              onClick={() => handleModal()}
+              // style={{
+              //   marginTop: "10px",
+              //   backgroundColor: "#c895e0",
+              //   borderColor: "#c895e0",
+              //   color: "#292925",
+              // }}
+            >
+              Explore theme >
+            </span>
           </div>
         </div>
 
-        <div className="row">
+        {/* <div className="row">
           <div className="col-12 blah">.</div>
         </div>
         <div className="row">
@@ -50,9 +63,9 @@ const Home = () => {
 
         <div className="row" style={{ height: "80px" }}>
           <div className="col-12 blah">.</div>
-        </div>
+        </div> */}
 
-        <div className="row ">
+        {/* <div className="row ">
           <div className="col-4 blah">.</div>
           <div className="col-4 blah">.</div>
           <div
@@ -99,7 +112,7 @@ const Home = () => {
             </svg>
           </div>
           <div class="modal-dialog modal-dialog-scrollable">...</div>
-        </div>
+        </div> */}
         <Modal
           show={show}
           onHide={handleClose}

@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/deploy_portfolio/static/css/main.b6b9c657.css",
-    "main.js": "/deploy_portfolio/static/js/main.ffca8e4f.js",
-    "static/js/787.39bb0775.chunk.js": "/deploy_portfolio/static/js/787.39bb0775.chunk.js",
-    "static/media/Screenshot (42).png": "/deploy_portfolio/static/media/Screenshot (42).b2892a953317e84d1d64.png",
-    "static/media/Screenshot (46).png": "/deploy_portfolio/static/media/Screenshot (46).929a5cd0706c78145b7f.png",
-    "static/media/imageDi.png": "/deploy_portfolio/static/media/imageDi.b84e48c3f0b0a224cbe2.png",
-    "index.html": "/deploy_portfolio/index.html",
-    "main.b6b9c657.css.map": "/deploy_portfolio/static/css/main.b6b9c657.css.map",
-    "main.ffca8e4f.js.map": "/deploy_portfolio/static/js/main.ffca8e4f.js.map",
-    "787.39bb0775.chunk.js.map": "/deploy_portfolio/static/js/787.39bb0775.chunk.js.map"
+    "main.css": "/divya_portfolio_deploy/static/css/main.b6b9c657.css",
+    "main.js": "/divya_portfolio_deploy/static/js/main.c3635d11.js",
+    "static/js/787.39bb0775.chunk.js": "/divya_portfolio_deploy/static/js/787.39bb0775.chunk.js",
+    "static/media/Screenshot (42).png": "/divya_portfolio_deploy/static/media/Screenshot (42).b2892a953317e84d1d64.png",
+    "static/media/Screenshot (46).png": "/divya_portfolio_deploy/static/media/Screenshot (46).929a5cd0706c78145b7f.png",
+    "static/media/imageDi.png": "/divya_portfolio_deploy/static/media/imageDi.b84e48c3f0b0a224cbe2.png",
+    "index.html": "/divya_portfolio_deploy/index.html",
+    "main.b6b9c657.css.map": "/divya_portfolio_deploy/static/css/main.b6b9c657.css.map",
+    "main.c3635d11.js.map": "/divya_portfolio_deploy/static/js/main.c3635d11.js.map",
+    "787.39bb0775.chunk.js.map": "/divya_portfolio_deploy/static/js/787.39bb0775.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b6b9c657.css",
-    "static/js/main.ffca8e4f.js"
+    "static/js/main.c3635d11.js"
   ]
 }

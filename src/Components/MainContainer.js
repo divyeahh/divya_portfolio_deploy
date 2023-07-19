@@ -11,7 +11,7 @@ const MainContainer = () => {
   return (
     <div>
       <Header />
-      <Routes basename="/deploy_portfolio">
+      <Routes basename="/divya_portfolio_deploy">
         <Route exact path="/" element={<Home />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/projects" element={<Projects />} />

@@ -10,13 +10,18 @@ const Projects = () => {
     <div>
       <div className="container">
         <div className="row mx-auto">
+          <div className="col-lg-12 col-md-6 col-sm-4">.</div>
+        </div>
+        <div className="row mx-auto">
           <div className="col-12">.</div>
+        </div>
+        <div className="row mx-auto">
           <div className="col-12">.</div>
-          <div className="col-12">.</div>
-          <div className="col-12">.</div>
-          {/* <div className="col-12">aaaa</div> */}
-          {/* <div className="col-12">aaaa</div> */}
-          <div className="col-6">
+        </div>
+        {/* <div className="col-12">aaaa</div> */}
+        {/* <div className="col-12">aaaa</div> */}
+        <div className="row mx-auto">
+          <div className="col-lg-6 col-md-6 col-sm-6">
             <div
               class="card mx-auto"
               style={{ width: "18rem", cursor: "pointer" }}
@@ -46,7 +51,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="col-6">
+          <div className="col-lg-6 col-md-6 col-sm-6">
             <div
               class="card mx-auto"
               style={{ width: "18rem", cursor: "pointer" }}

@@ -5,8 +5,8 @@
   background-image: linear-gradient(#292925, #11100e);
   background-size: 100% 100%; /* Change to cover the entire background */
   background-repeat: no-repeat;
-  background-color: transparent;
-  overflow: hidden;
+  background-color: #292925;
+  /* overflow: hidden; */
 }
 
 /* .App {

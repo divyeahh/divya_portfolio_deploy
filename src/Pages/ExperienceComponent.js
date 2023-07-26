@@ -4,12 +4,16 @@ const ExperienceComponent = () => {
   return (
     <div>
       <div className="container">
+        <div className="row" style={{ color: "#292925" }}>
+          <div className="col-12">.</div>
+        </div>
+
         <div className="row">
           <div
-            className="col-4"
+            className="col-md-4"
             style={{
               color: "#c0c0c0",
-              backgroundColor: "transparent",
+              // backgroundColor: "transparent",
               // display: "flex",
               // justifyContent: "initial",
             }}
@@ -17,23 +21,23 @@ const ExperienceComponent = () => {
             WORK EXPERIENCE
           </div>
           <div
-            className="col-4"
+            className="col-md-4"
             // style={{ display: "flex", justifyContent: "center" }}
           >
             <a
               target="_blank"
               href="https://www.linkedin.com/company/riversilica-technologies-pvt-ltd--/mycompany/"
-              style={{ color: "#c0c0c0", backgroundColor: "transparent" }}
+              style={{ color: "#c0c0c0" }}
             >
               RIVERSILICA TECHNOLOGIES
             </a>
           </div>
           <div
-            className="col-4"
+            className="col-md-4"
             style={{
               fontStretch: "extra-expanded",
               color: "#c0c0c0",
-              backgroundColor: "transparent",
+              // backgroundColor: "transparent",
               // display: "flex",
               // justifyContent: "center",
             }}
@@ -43,7 +47,7 @@ const ExperienceComponent = () => {
               style={{
                 fontSize: "10px",
                 fontStyle: "italic",
-                backgroundColor: "transparent",
+                // backgroundColor: "transparent",
                 // display: "flex",
                 // justifyContent: "flex-end",
               }}
@@ -51,25 +55,19 @@ const ExperienceComponent = () => {
               (Nov 2022 - present)
             </footer>
           </div>
-          <div
-            className="row"
-            style={{ color: "#292925", backgroundColor: "transparent" }}
-          >
-            .
+          <div className="row" style={{ color: "#292925" }}>
+            <div className="col-12">.</div>
           </div>
-          <div
-            className="row"
-            style={{ color: "#292925", backgroundColor: "transparent" }}
-          >
-            .
+          <div className="row" style={{ color: "#292925" }}>
+            <div className="col-12">.</div>
           </div>
         </div>
         <div className="row">
           <div
-            className="col-4"
+            className="col-md-4"
             style={{
               color: "#c0c0c0",
-              backgroundColor: "transparent",
+              // backgroundColor: "transparent",
               // display: "flex",
               // justifyContent: "center",
             }}
@@ -77,10 +75,10 @@ const ExperienceComponent = () => {
             VOLUNTEER EXPERIENCE
           </div>
           <div
-            className="col-4"
+            className="col-md-4"
             style={{
               color: "#c0c0c0",
-              backgroundColor: "transparent",
+              // backgroundColor: "transparent",
               // display: "flex",
               // justifyContent: "center",
             }}
@@ -88,7 +86,7 @@ const ExperienceComponent = () => {
             <a
               target="_blank"
               href="https://www.linkedin.com/company/girlupgleam/"
-              style={{ color: "#c0c0c0", backgroundColor: "transparent" }}
+              style={{ color: "#c0c0c0" }}
             >
               GIRLUP GLEAM
             </a>
@@ -96,7 +94,7 @@ const ExperienceComponent = () => {
               style={{
                 fontSize: "10px",
                 fontStyle: "italic",
-                backgroundColor: "transparent",
+                // backgroundColor: "transparent",
                 // display: "flex",
                 // justifyContent: "flex-end",
               }}
@@ -105,11 +103,11 @@ const ExperienceComponent = () => {
             </footer>
           </div>
           <div
-            className="col-4"
+            className="col-md-4"
             style={{
               fontStretch: "extra-expanded",
               color: "#c0c0c0",
-              backgroundColor: "transparent",
+              // backgroundColor: "transparent",
               // display: "flex",
               // justifyContent: "center",
             }}
@@ -119,7 +117,7 @@ const ExperienceComponent = () => {
               style={{
                 fontSize: "10px",
                 fontStyle: "italic",
-                backgroundColor: "transparent",
+                // backgroundColor: "transparent",
                 // display: "flex",
                 // justifyContent: "flex-end",
               }}
@@ -129,25 +127,19 @@ const ExperienceComponent = () => {
           </div>
         </div>
 
-        <div
-          className="row"
-          style={{ color: "#292925", backgroundColor: "transparent" }}
-        >
-          .
+        <div className="row" style={{ color: "#292925" }}>
+          <div className="col-12">.</div>
         </div>
-        <div
-          className="row"
-          style={{ color: "#292925", backgroundColor: "transparent" }}
-        >
-          .
+        <div className="row" style={{ color: "#292925" }}>
+          <div className="col-12">.</div>
         </div>
 
         <div className="row">
           <div
-            className="col-4"
+            className="col-md-4"
             style={{
               color: "#c0c0c0",
-              backgroundColor: "transparent",
+              // backgroundColor: "transparent",
               // display: "flex",
               // justifyContent: "center",
             }}
@@ -155,10 +147,10 @@ const ExperienceComponent = () => {
             EDUCATION
           </div>
           <div
-            className="col-4"
+            className="col-md-4"
             style={{
               color: "#c0c0c0",
-              backgroundColor: "transparent",
+              // backgroundColor: "transparent",
               // display: "flex",
               // justifyContent: "center",
             }}
@@ -166,17 +158,17 @@ const ExperienceComponent = () => {
             <a
               target="_blank"
               href="https://www.linkedin.com/school/city-engineering-college/"
-              style={{ color: "#c0c0c0", backgroundColor: "transparent" }}
+              style={{ color: "#c0c0c0" }}
             >
               CITY ENGINEERING COLLEGE
             </a>
           </div>
           <div
-            className="col-4"
+            className="col-md-4"
             style={{
               fontStretch: "extra-expanded",
               color: "#c0c0c0",
-              backgroundColor: "transparent",
+              // backgroundColor: "transparent",
               // display: "flex",
               // justifyContent: "center",
             }}
@@ -186,7 +178,7 @@ const ExperienceComponent = () => {
               style={{
                 fontSize: "10px",
                 fontStyle: "italic",
-                backgroundColor: "transparent",
+                // backgroundColor: "transparent",
                 // display: "flex",
                 // justifyContent: "flex-end",
               }}
@@ -194,6 +186,9 @@ const ExperienceComponent = () => {
               (July 2018 - Aug 2022)
             </footer>
           </div>
+        </div>
+        <div className="row" style={{ color: "#292925" }}>
+          <div className="col-12">.</div>
         </div>
       </div>
     </div>

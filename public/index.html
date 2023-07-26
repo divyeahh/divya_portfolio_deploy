@@ -9,6 +9,20 @@
       name="description"
       content="Web site created using create-react-app"
     />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <style>
+      /* Add media query to make the layout responsive */
+      @media (max-width: 768px) {
+        .col-md-4,
+        .col-md-8 {
+          flex-basis: 100%;
+          max-width: 100%;
+        }
+      }
+    </style>
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a

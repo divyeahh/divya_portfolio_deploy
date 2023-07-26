@@ -8,26 +8,108 @@ const About = () => {
     <div className="About">
       <div className="container">
         <div className="mt-3" style={{ position: "relative" }}>
+          {/* <div className="row">
+            <div className="col-md-12">.</div>
+          </div> */}
+          {/* <div className="row">
+            <div className="col-12">.</div>
+          </div> */}
           <div className="row">
-            <div className="col-12">.</div>
-            <div className="col-12">.</div>
             <div
-              className="col-6"
-              style={{
-                top: 0,
-                backgroundColor: "transparent",
-                position: "absolute",
-              }}
+              className="col-md-5"
+              // style={{
+              //   top: 0,
+              //   // backgroundColor: "transparent",
+              //   position: "absolute",
+              // }}
             >
               <img alt="profile" src={profile} />
             </div>
             <div
-              className="col-6"
-              style={{
-                top: 250,
-                position: "absolute",
-                backgroundColor: "transparent",
-              }}
+              className="col-md-7"
+              // style={{ display: "flex", position: "initial" }}
+            >
+              <div
+              // style={{
+              //   top: 0,
+              //   width: 698,
+              //   height: 250,
+              //   left: 430,
+              //   top: 0,
+              //   position: "absolute",
+              //   backgroundColor: "transparent",
+              // }}
+              >
+                <span
+                  style={{
+                    color: "#c895e0",
+                    fontSize: 18,
+                    fontWeight: "bold",
+                    backgroundColor: "transparent",
+                    // wordWrap: "break-word",
+                    fontStretch: "extra-expanded",
+                  }}
+                >
+                  Hello!{" "}
+                </span>
+                <span
+                  style={{
+                    color: "#c0c0c0",
+                    fontSize: 16,
+                    fontWeight: "lighter",
+                    backgroundColor: "transparent",
+                    // wordWrap: "break-word",
+                  }}
+                >
+                  I am
+                  <br />
+                </span>
+
+                <h2
+                  style={{
+                    color: "#c895e0",
+                    fontSize: 32,
+                    fontWeight: "normal",
+                    backgroundColor: "transparent",
+                    // wordWrap: "break-word",
+                  }}
+                >
+                  Divyashree R,
+                </h2>
+
+                <p
+                  style={{
+                    color: "#c0c0c0",
+                    fontSize: 16,
+                    fontWeight: "lighter",
+                    backgroundColor: "transparent",
+                    // wordWrap: "break-word",
+                    // display: "flex",
+                    // justifyContent: "center",
+                  }}
+                >
+                  a 22-year-old Software Engineer based in Bangalore. I thrive
+                  on bringing creativity to the forefront in the world of
+                  technology, which led me to specialize as a Frontend
+                  Developer. With a solid year of experience in website and
+                  content management system development, I constantly strive to
+                  enhance my skills in both design and development. <br />
+                  Apart from being a Web Developer, I am an avid reader and
+                  enjoy writing blogs and content. I am a classical Carnatic
+                  singer and immerse myself in it in my spare time.
+                  <br />
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div
+              className="col-md-5"
+              // style={{
+              //   top: 250,
+              //   position: "absolute",
+              //   // backgroundColor: "transparent",
+              // }}
             >
               <span
                 style={{
@@ -513,89 +595,15 @@ const About = () => {
               </span>
             </div>
 
-            <div className="col-4">
+            <div className="col-md-7">
               <div
                 style={{
-                  top: 0,
-                  width: 698,
-                  height: 250,
-                  left: 430,
-                  top: 0,
-                  position: "absolute",
-                  backgroundColor: "transparent",
-                }}
-              >
-                <span
-                  style={{
-                    color: "#c895e0",
-                    fontSize: 18,
-                    fontWeight: "bold",
-                    backgroundColor: "transparent",
-                    // wordWrap: "break-word",
-                    fontStretch: "extra-expanded",
-                  }}
-                >
-                  Hello!{" "}
-                </span>
-                <span
-                  style={{
-                    color: "#c0c0c0",
-                    fontSize: 16,
-                    fontWeight: "lighter",
-                    backgroundColor: "transparent",
-                    // wordWrap: "break-word",
-                  }}
-                >
-                  I am
-                  <br />
-                </span>
-
-                <h2
-                  style={{
-                    color: "#c895e0",
-                    fontSize: 32,
-                    fontWeight: "normal",
-                    backgroundColor: "transparent",
-                    // wordWrap: "break-word",
-                  }}
-                >
-                  Divyashree R,
-                </h2>
-
-                <p
-                  style={{
-                    color: "#c0c0c0",
-                    fontSize: 16,
-                    fontWeight: "lighter",
-                    backgroundColor: "transparent",
-                    // wordWrap: "break-word",
-                    display: "flex",
-                    justifyContent: "center",
-                  }}
-                >
-                  a 22-year-old Software Engineer based in Bangalore. I thrive
-                  on bringing creativity to the forefront in the world of
-                  technology, which led me to specialize as a Frontend
-                  Developer. With a solid year of experience in website and
-                  content management system development, I constantly strive to
-                  enhance my skills in both design and development. <br />
-                  Apart from being a Web Developer, I am an avid reader and
-                  enjoy writing blogs and content. I am a classical Carnatic
-                  singer and immerse myself in it in my spare time.
-                  <br />
-                </p>
-              </div>
-            </div>
-
-            <div className="col-8">
-              <div
-                style={{
-                  width: 698,
-                  height: 250,
-                  left: 430,
-                  top: 250,
-                  position: "absolute",
-                  backgroundColor: "transparent",
+                  // width: 698,
+                  // height: 250,
+                  // left: 430,
+                  // top: 250,
+                  // position: "absolute",
+                  // backgroundColor: "transparent",
                   borderRadius: 5,
                   boxShadow: "6px 6px 4px rgba(0, 0, 0, 0.25)",
                   borderWidth: "1px",
@@ -603,21 +611,12 @@ const About = () => {
                   borderColor: "#c895e0",
                 }}
               >
-                <span
-                  style={{
-                    color: "#c895e0",
-                    backgroundColor: "transparent",
-                    // fontSize: 14,
-                    wordWrap: "break-word",
-                    marginLeft: "5px",
-                  }}
-                >
-                  <ExperienceComponent />
-                </span>
+                <ExperienceComponent />
               </div>
             </div>
-            {/* <div className="col-12"></div> */}
           </div>
+
+          {/* <div className="col-12"></div> */}
         </div>
       </div>
     </div>

@@ -109,7 +109,7 @@ const DetaileProjectView = () => {
                           ?.filter((item) => item?.id === clickedItem)
                           .map((item) => {
                             return (
-                              <ul style={{ color: "#c0c0c0" }}>
+                              <ul key={item?.id} style={{ color: "#c0c0c0" }}>
                                 <li
                                   style={{
                                     marginBottom: "10px",

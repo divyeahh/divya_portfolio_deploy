@@ -49,6 +49,8 @@ const Contact = () => {
               <div className="container">
                 <div className="row">
                   <div className="col-12">.</div>
+                </div>
+                <div className="row">
                   <div
                     className="col-3"
                     style={{ display: "flex", justifyContent: "center" }}
@@ -89,8 +91,11 @@ const Contact = () => {
                     div5353@gmail.com
                   </div>
                 </div>
+
                 <div className="row">
                   <div className="col-12">.</div>
+                </div>
+                <div className="row">
                   <div
                     className="col-3"
                     style={{ display: "flex", justifyContent: "center" }}
@@ -135,12 +140,15 @@ const Contact = () => {
                         backgroundColor: "transparent",
                       }}
                     >
-                      linkedin.com/in/divyashree-lochan/
+                      linkedin.com/divyashree
                     </a>
                   </div>
                 </div>
+
                 <div className="row">
                   <div className="col-12">.</div>
+                </div>
+                <div className="row">
                   <div
                     className="col-3"
                     style={{ display: "flex", justifyContent: "center" }}
@@ -185,8 +193,11 @@ const Contact = () => {
                     </a>
                   </div>
                 </div>
+
                 <div className="row">
                   <div className="col-12">.</div>
+                </div>
+                <div className="row">
                   <div
                     className="col-3"
                     style={{ display: "flex", justifyContent: "center" }}

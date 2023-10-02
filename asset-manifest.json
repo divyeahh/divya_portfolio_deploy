@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/divya_portfolio_deploy/static/css/main.b0bea762.css",
-    "main.js": "/divya_portfolio_deploy/static/js/main.4904ef78.js",
+    "main.css": "/divya_portfolio_deploy/static/css/main.194e7e1f.css",
+    "main.js": "/divya_portfolio_deploy/static/js/main.0f7b049a.js",
     "static/js/787.39bb0775.chunk.js": "/divya_portfolio_deploy/static/js/787.39bb0775.chunk.js",
     "static/media/Screenshot (42).png": "/divya_portfolio_deploy/static/media/Screenshot (42).b2892a953317e84d1d64.png",
     "static/media/Screenshot (46).png": "/divya_portfolio_deploy/static/media/Screenshot (46).929a5cd0706c78145b7f.png",
+    "static/media/Divyashree_resume2023.pdf": "/divya_portfolio_deploy/static/media/Divyashree_resume2023.abe38e449b7195ef9c0b.pdf",
     "static/media/imageDi.png": "/divya_portfolio_deploy/static/media/imageDi.b84e48c3f0b0a224cbe2.png",
     "index.html": "/divya_portfolio_deploy/index.html",
-    "main.b0bea762.css.map": "/divya_portfolio_deploy/static/css/main.b0bea762.css.map",
-    "main.4904ef78.js.map": "/divya_portfolio_deploy/static/js/main.4904ef78.js.map",
+    "main.194e7e1f.css.map": "/divya_portfolio_deploy/static/css/main.194e7e1f.css.map",
+    "main.0f7b049a.js.map": "/divya_portfolio_deploy/static/js/main.0f7b049a.js.map",
     "787.39bb0775.chunk.js.map": "/divya_portfolio_deploy/static/js/787.39bb0775.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0bea762.css",
-    "static/js/main.4904ef78.js"
+    "static/css/main.194e7e1f.css",
+    "static/js/main.0f7b049a.js"
   ]
 }

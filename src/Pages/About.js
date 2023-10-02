@@ -595,7 +595,7 @@ const About = () => {
               </span>
             </div>
 
-            <div className="col-md-7">
+            <div className="col-md-7" id="box">
               <div
                 style={{
                   // width: 698,

@@ -21,7 +21,7 @@ const Projects = () => {
         {/* <div className="col-12">aaaa</div> */}
         {/* <div className="col-12">aaaa</div> */}
         <div className="row mx-auto">
-          <div className="col-lg-6 col-md-6 col-sm-6">
+          <div id="card1" className="col-lg-6 col-md-6 col-sm-6">
             <div
               class="card mx-auto"
               style={{ width: "18rem", cursor: "pointer" }}

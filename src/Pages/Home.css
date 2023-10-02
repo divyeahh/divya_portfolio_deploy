@@ -40,3 +40,15 @@
   border-color: #30302d;
   color: #c0c0c0;
 }
+
+.svg:hover::after {
+  background-color: #292925 !important;
+  border-color: #30302d !important;
+  color: #c0c0c0 !important;
+}
+
+.svg:hover {
+  background-color: #292925 !important;
+  border-color: #30302d !important;
+  color: #c0c0c0 !important;
+}

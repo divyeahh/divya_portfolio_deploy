@@ -4,6 +4,7 @@ import { Button, Modal } from "react-bootstrap";
 import { ToastContainer, toast } from "react-toastify";
 import { css } from "glamor";
 import "react-toastify/dist/ReactToastify.css";
+import Divya_resume from "../Divyashree_resume2023.pdf";
 //#766a8a
 //rgb(160 154 169)
 
@@ -19,100 +20,77 @@ const Home = () => {
       <div className="container">
         <div className="row">
           <div className="col-12 blah">.</div>
+        </div>
+        <div className="row">
           <div className="col-12 blah">.</div>
-          {/* <div className="col-7"> */}
-          <div className="col-12 blah">
-            <h1 style={{ color: "#c0c0c0" }}>Explore LocalHost:3000:</h1>
-          </div>
-          <div className="col-12">
+        </div>
+
+        {/* <div className="col-7"> */}
+        <div className="row">
+          <h1 className="col-md-12" style={{ color: "#c0c0c0" }}>
+            Explore LocalHost:3000:
+          </h1>
+        </div>
+        <div className="row">
+          <div className="col-md-12">
             <h1 style={{ color: "#c0c0c0" }}>
               <span style={{ color: "#c895e0" }}>
-                Where My Creativity Finds its
-              </span>{" "}
+                Where My Creativity Finds its{" "}
+              </span>
               <span style={{ color: "#c895e0" }}>Port</span>(folio)!
             </h1>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-md-12">
             <span
               type="button"
               className="btn home"
               onClick={() => handleModal()}
-              // style={{
-              //   marginTop: "10px",
-              //   backgroundColor: "#c895e0",
-              //   borderColor: "#c895e0",
-              //   color: "#292925",
-              // }}
+              style={{
+                marginRight: "10px",
+              }}
             >
-              Explore theme >
+              {"Explore theme >"}
             </span>
-          </div>
-        </div>
-
-        {/* <div className="row">
-          <div className="col-12 blah">.</div>
-        </div>
-        <div className="row">
-          <div className="col-12 blah">.</div>
-        </div>
-        <div className="row">
-          <div className="col-12 blah">.</div>
-        </div>
-
-        <div className="row" style={{ height: "100px" }}>
-          <div className="col-12">.</div>
-        </div>
-
-        <div className="row" style={{ height: "80px" }}>
-          <div className="col-12 blah">.</div>
-        </div> */}
-
-        {/* <div className="row ">
-          <div className="col-4 blah">.</div>
-          <div className="col-4 blah">.</div>
-          <div
-            className="col-4"
-            style={{ display: "flex", justifyContent: "flex-end" }}
-            onClick={() => handleModal()}
-          >
-            <svg
-              width="50"
-              height="50"
-              viewBox="0 0 100 100"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              style={{ cursor: "pointer" }}
+            <a
+              href={Divya_resume}
+              download="Divya_resume"
+              target="_blank"
+              rel="noreferrer"
             >
-              <g clip-path="url(#clip0_15_2)">
-                <path
-                  d="M50 85C30.75 85 15 69.7458 15 51.1017V48.8983C15 30.2542 30.75 15 50 15C69.25 15 85 30.2542 85 48.8983V51.1017C85 69.7458 69.25 85 50 85Z"
-                  fill="#C895E0"
-                />
-                <path
-                  d="M37.4 72.1186L28.475 62.7966L37.4 53.4746H46.675L37.75 62.9661L46.675 72.2881H37.4V72.1186Z"
-                  fill="#141414"
-                />
-                <path
-                  d="M61.9 30.0847V24.322H48.25V72.2881H61.725C60.325 72.1186 59.1 70.9322 59.1 69.4068C59.1 68.5593 59.45 67.8813 59.975 67.3729C60.5 66.8644 61.025 66.6949 61.725 66.5254H55.25V30.0847H61.9Z"
-                  fill="#141414"
-                />
-                <path
-                  d="M65.3999 72.1186C63.8249 72.1186 62.4249 70.7627 62.4249 69.2373C62.4249 67.7119 63.8249 66.3559 65.3999 66.3559C66.9749 66.3559 68.3749 67.7119 68.3749 69.2373C68.3749 70.9322 67.1499 72.1186 65.3999 72.1186Z"
-                  fill="#141414"
-                />
-              </g>
-              <defs>
-                <clipPath id="clip0_15_2">
-                  <rect
-                    width="70"
-                    height="70"
-                    fill="white"
-                    transform="translate(15 15)"
+              <span
+                type="button"
+                className="btn home"
+                // onClick={() => downloadFile()}
+                // style={{
+                //   marginTop: "10px",
+                //   backgroundColor: "#c895e0",
+                //   borderColor: "#c895e0",
+                //   color: "#292925",
+                // }}
+              >
+                {"Download CV"}
+                {/* <svg
+                  className="svg"
+                  width="9"
+                  height="14"
+                  viewBox="0 0 9 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  style={{ marginBottom: "2px", marginLeft: "2px" }}
+                >
+                  <path
+                    d="M4.5 0C4.77614 0 5 0.223858 5 0.5V12.2929L8.14645 9.14645C8.34171 8.95118 8.65829 8.95118 8.85355 9.14645C9.04882 9.34171 9.04882 9.65829 8.85355 9.85355L4.85355 13.8536C4.65829 14.0488 4.34171 14.0488 4.14645 13.8536L0.146447 9.85355C-0.0488155 9.65829 -0.0488155 9.34171 0.146447 9.14645C0.341709 8.95118 0.658292 8.95118 0.853554 9.14645L4 12.2929V0.5C4 0.223858 4.22386 0 4.5 0Z"
+                    fill="#292925"
                   />
-                </clipPath>
-              </defs>
-            </svg>
+                  <line y1="13.5" x2="9" y2="13.5" stroke="#292925" />
+                </svg> */}
+              </span>
+            </a>
           </div>
-          <div class="modal-dialog modal-dialog-scrollable">...</div>
-        </div> */}
+        </div>
+
         <Modal
           show={show}
           onHide={handleClose}
